@@ -51,8 +51,8 @@ jobs:
       - name: Deploy Allure Report to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          publish_dir: target/site/allure-maven-plugin  # Path to the generated Allure HTML report
-          publish_branch: gh-pages  # Branch to push the report to
+          publish_dir: target/site/allure-maven-plugin
+          publish_branch: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.REP_SEC }}
 
