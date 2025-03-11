@@ -20,6 +20,7 @@ public class InitConfig {
         Configuration.browserSize = config.browserSize();
 //        Configuration.browserVersion = config.browserVersion();
         Configuration.baseUrl = config.baseUrl();
+        Configuration.headless = false;
 //        Configuration.pageLoadStrategy = "eager";
 
         if (config.isRemote()) {
