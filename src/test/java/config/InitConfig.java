@@ -23,7 +23,8 @@ public class InitConfig {
 //        Configuration.pageLoadStrategy = "eager";
 
         if (config.isRemote()) {
-            String remoteUrl = config.selenoidUser() + ":" + config.selenoidPassword() + "@selenoid.autotests.cloud/wd/hub";
+//            String remoteUrl = config.selenoidUser() + ":" + config.selenoidPassword() + "@selenoid.autotests.cloud/wd/hub";
+            String remoteUrl = "http://selenoid:4444/wd/hub";
             Configuration.remote = remoteUrl;
 
             DesiredCapabilities capabilities = new DesiredCapabilities();
