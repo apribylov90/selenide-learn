@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","13390","Тестирование заполнения формы","","Tue Mar 11 11:51:23 UTC 2025","passed","Tue Mar 11 11:51:37 UTC 2025","","Тест Заполнение формы","tests.PracticeFormTest","testFillForm"
