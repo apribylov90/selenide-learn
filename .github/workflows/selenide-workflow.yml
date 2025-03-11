@@ -54,5 +54,5 @@ jobs:
           publish_dir: target/site/allure-maven-plugin
           publish_branch: gh-pages
         env:
-          GH_TOKEN: ${{ secrets.REP_SEC }}
+          GH_TOKEN: ${{ secrets.SEC }}
 
